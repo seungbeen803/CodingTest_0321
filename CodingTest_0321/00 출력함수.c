@@ -14,21 +14,22 @@ int main(void)
 	// printf("%s", mjyeol);
 
 	// mjyeol를 %c로 찍어보자
-	printf("%c", mjyeol[0]);	// 'H'
-	printf("%c", mjyeol[1]);	// 'e'
-	printf("%c", mjyeol[2]);	// 'l'
-	printf("%c", mjyeol[3]);	// 'l'
-	printf("%c", mjyeol[4]);	// 'o'
-	printf("%c", mjyeol[5]);	// ' '
-	printf("%c", mjyeol[6]);	// 'W'
-	printf("%c", mjyeol[7]);	// 'o'
-	printf("%c", mjyeol[8]);	// 'r'
-	printf("%c", mjyeol[9]);	// 'l'
-	printf("%c", mjyeol[10]);	// 'd'
-	printf("%c", mjyeol[11]);	// null문자
+	// printf("%c", mjyeol[0]);	// 'H'
+	// printf("%c", mjyeol[1]);	// 'e'
+	// printf("%c", mjyeol[2]);	// 'l'
+	// printf("%c", mjyeol[3]);	// 'l'
+	// printf("%c", mjyeol[4]);	// 'o'
+	// printf("%c", mjyeol[5]);	// ' '
+	// printf("%c", mjyeol[6]);	// 'W'
+	// printf("%c", mjyeol[7]);	// 'o'
+	// printf("%c", mjyeol[8]);	// 'r'
+	// printf("%c", mjyeol[9]);	// 'l'
+	// printf("%c", mjyeol[10]);	// 'd'
+	// printf("%c", mjyeol[11]);	// null문자
 
-	for (int i = 0; i <= 12; i++)
+
+	for (int i = 0; i < 12; i++)
 	{
-		printf("%c", mjyeol[]);
+		printf("%c", mjyeol[i]);
 	}
 }
