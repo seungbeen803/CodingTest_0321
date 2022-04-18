@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02.배열활용연습.c">
+    <ClCompile Include="03.중간점검-이차원배열 출력.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
