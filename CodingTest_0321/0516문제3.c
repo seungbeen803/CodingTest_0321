@@ -10,12 +10,11 @@ int main(void)
 	//	printf("문자열의 길이 : %d", length);
 
 	// 문자로 판별될 경우 lendgth를 카운팅(1씩 증가)
-	for (int i = 0; i < 30; i++) {
+	for (int i = 0; str[i] != '\0'; i++) {
 		// null문자를 제외한다는 의미로 사용
-		if (str[i] != '\0')
 		length++;
 	}
 	printf("길이는 %d", length);
-	return 0;
+	return 0; 
 }
 
