@@ -12,6 +12,13 @@ int main(void)
 		}
 		printf("\n");
 	}
+
+	// 문자열의 길이를 구하시오
+	char str[30] = "Hello";
+	for (int i = 0; i < str; i++)
+	{
+		printf("문자열의 길이 : %d", str[i]);
+	}
 	return 0;
 }
 
