@@ -7,7 +7,9 @@ int main(void)
 		{5, 6, 7, 8},
 		{9, 10, 11, 12}
 	};
+	// for(int i = 0; i < 행 개수; i++)
 	for (int i = 0; i < 3; i++) {
+		// for(int j = 0; j < 열 개수; j++)
 		for (int j = 0; j < 4; j++) {
 			printf("%d", arr[i][j]);
 		}
