@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="05. 문자열 비교하기.c">
+    <ClCompile Include="06. 문자열 덧붙이기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
