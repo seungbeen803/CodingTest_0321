@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	// ÀÌÂ÷¿ø¹è¿­ ¾Æ¹«°Å³ª ¸¸µé¾îº¸°í °¢°¢ÀÇ ¿ø¼Ò¸¦ Ãâ·ÂÇÏ±â
+	// ì´ì°¨ì›ë°°ì—´ ì•„ë¬´ê±°ë‚˜ ë§Œë“¤ì–´ë³´ê³  ê°ê°ì˜ ì›ì†Œë¥¼ ì¶œë ¥í•˜ê¸°
 	char arr[3][3] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', ' I'};
 	for (int i = 0; i < sizeof(arr) / sizeof(arr[0]); i++)
 	{
@@ -13,12 +13,14 @@ int main(void)
 		printf("\n");
 	}
 
-	// ¹®ÀÚ¿­ÀÇ ±æÀÌ¸¦ ±¸ÇÏ½Ã¿À
+	// ë¬¸ìžì—´ì˜ ê¸¸ì´ë¥¼ êµ¬í•˜ì‹œì˜¤
 	char str[30] = "Hello";
-	for (int i = 0; i < str; i++)
+	int length = 0;
+	for (int i = 0; i < str[i]; i++)
 	{
-		printf("¹®ÀÚ¿­ÀÇ ±æÀÌ : %d", str[i]);
+		length += 1;
 	}
+	printf("ë¬¸ìžì—´ì˜ ê¸¸ì´: %d", length);
 	return 0;
 }
 
