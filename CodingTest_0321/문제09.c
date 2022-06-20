@@ -1,5 +1,6 @@
 #include <stdio.h>
-# include <string.h>	// strlen() 함수 호출을 위해
+#include <string.h>	// strlen() 함수 호출을 위해
+#include <stdlib.h>
 
 
 // answer 사이즈 신청결과를 담고 있는 배열
@@ -11,8 +12,12 @@
 // shirt_size[5] : "XXL" 사이즈 신청자의 수
 
 int* solution(char* shirt_size[], int shirt_size_len) {
-	int arr[6] = { 0, 0, 0, 0, 0, 0 };
-	int* answer;
+	//int* answer = arr;// 지역변수
+	// 배열 동적할당
+	int* answer = malloc(6 * sizeof(int));
+	for (int i = 0; i < 6; i++)
+		answer[i] = 0;
+
 	// 여기에 코드를 작성해주세요.
 	// shirt_size에 있는 모든 원소를 찾아서 counting
 	for (int i = 0; i < shirt_size_len ; i++) {
