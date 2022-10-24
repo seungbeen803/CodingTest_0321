@@ -26,15 +26,15 @@ int* func_a(int gloves[], int gloves_len) {
     // glove[2] : 2
     // glove[3] : 2
     // glove[4] : 4
-
+    
     // 모든 원소를 찾는 반복문
     for (int i = 0; i < gloves_len; ++i)
         // 배열의 인덱스는 대괄호를 사용한다.
         // counter, gloves는 모두 배열
         counter[gloves[i]]++;
 
-    return counter;
-}
+        return counter;
+} 
 
 int solution(int left_gloves[], int left_gloves_len, int right_gloves[], int right_gloves_len) {
     // 1. 왼손 장갑이 제품 번호별로 몇 개씩 있는지 개수를 셉니다.
