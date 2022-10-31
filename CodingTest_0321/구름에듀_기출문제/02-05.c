@@ -7,9 +7,10 @@ int solution(int attack, int recovery, int hp) {
 
     while (true) {
         // count 1증가 (공격횟수)
-        // 몬스터를 때린다 (hp 30감소)
-        // 몬스터가 살아있으면
-            // hp회복 (10)
+        // 몬스터를 때린다 (hp 30[attack]감소)
+        // 몬스터가 죽으면
+            // 반복문 벗어남(중지)
+        // hp[recovery]회복
         count += 1;
         hp -= attack;
         if (hp <= 0)
