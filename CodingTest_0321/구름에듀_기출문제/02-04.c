@@ -7,8 +7,15 @@
 // 5개 이상의 문자열만 걸러서 넣는다
 char* solution(char* words[], int words_len) {
     // 단어의 개수 최대 100개 X 한 단어당 10개 + '/0' 공간 1개
-    // 동적할당 못하겠으면 이렇게 풀 것
-    char answer[1001] = "";
+    // char answer[1001] = "";
+
+    // 메모리공간 1001개 동적할당
+    char* answer = malloc(1001 * sizeof(char));
+
+    // 모든 공간을 0으로 초기화
+    for (int i = 0; i < 1001; i++) {
+        answer[i] = 0;
+    }
  
     // 길이 5이상의 문자열만 answer에 넣는다
     for (int i = 0; i < words_len; i++) {
