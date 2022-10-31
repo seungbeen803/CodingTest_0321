@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include <string.h>
+#include <string.h> // strlen(), strcat()
 
 // words 그냥 문자열이 들어가 있는 것
 // 5개 이상의 문자열만 걸러서 넣는다
