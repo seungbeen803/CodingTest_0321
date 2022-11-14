@@ -23,7 +23,8 @@ int func_c(int arr[], int n) {
 
 
 
-// n : 번호
+// n : 학생 번호
+// scores : 정렬대상, 배열
 int solution(int scores[], int scores_len, int n) {
     // 1. n번 학생의 점수를 변수에 저장합니다.
     int score = func_c(scores, n);
