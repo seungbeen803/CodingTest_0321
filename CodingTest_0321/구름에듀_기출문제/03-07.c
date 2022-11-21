@@ -23,7 +23,7 @@ int solution(int num_apple, int num_carrot, int k) {
         // 과일이 4개 필요하기 때문에 4로 나누어준다
         if (i % 4 == 0)
             // 만들 수 있는 주스의 개수가 줄어들어야함
-            answer--;
+            answer--; // 주스의 개수(answer)는 줄어들어야 한다
     return answer;
 }
 
