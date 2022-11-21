@@ -3,10 +3,11 @@
 #include <stdlib.h>
 #include <string.h>
 
+// day는 짝수 일인지, 홀수 일인지 판단하기 위해서 필요
 int solution(int day, int numbers[], int numbers_len) {
     int count = 0;
     for (int i = 0; i < numbers_len; i++)
-        if (numbers[i] % 2 != day % 2)
+        if (numbers[i] % 2 == day % 2)
             count++;
     return count;
 }
