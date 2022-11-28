@@ -21,7 +21,6 @@ int solution(int arr[], int arr_len) {
                 break;
             }
     return answer;
-}return count;
 }
 
 int main() {
