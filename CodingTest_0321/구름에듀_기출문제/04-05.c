@@ -4,7 +4,8 @@
 
 
 int solution(int calorie[], int calorie_len) {
-    int min_cal = 0;
+    // 최솟값을 구하려면 범위를 최대로 정해주어야한다.
+    int min_cal = 1001;
     int answer = 0;
     for (int i = 0; i < calorie_len; i++) {
         // 현재값에-최솟값만큼 누적
